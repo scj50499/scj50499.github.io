@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Chandra Joshi - Backend Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=SF+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    
+   <nav role="navigation">
+        <div class="logo">SACHIN JOSHI</div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section id="home" class="section hero active">
+            <div class="hero-content">
+                <h1>Sachin Chandra Joshi</h1>
+                <h2>Backend Developer | Ruby on Rails & Go Expert</h2>
+                <p>I build robust, scalable backend systems with a focus on performance and clean architecture. With expertise in Ruby on Rails and Go, I create efficient solutions that power modern web applications.</p>
+                <div class="cta-buttons">
+                    <a href="#footer" class="btn btn-primary">Get In Touch</a>
+                    <a href="https://tinyurl.com/scj-resume" target="_blank" class="btn btn-secondary">View Resume</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-button red"></div>
+                        <div class="window-button yellow"></div>
+                        <div class="window-button green"></div>
+                    </div>
+                    <div class="window-content" id="code-display">
+                        <!-- Code will be inserted here by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-category">Backend Development</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Ruby on Rails</span>
+                        <span class="skill-tag">Go</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">GraphQL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-category">Databases</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Elasticsearch</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-category">DevOps & Cloud</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-category">Other Technologies</div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">RabbitMQ</span>
+                        <span class="skill-tag">Kafka</span>
+                        <span class="skill-tag">OAuth</span>
+                        <span class="skill-tag">JWT</span>
+                        <span class="skill-tag">WebSockets</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-date">Nov 2023 – Present</div>
+                    <div class="experience-title">SDE-2</div>
+                    <div class="experience-company">Builder.ai, Gurgaon, India</div>
+                    <p>Optimized PostgreSQL and Kubernetes autoscaling, reducing cloud costs by 20%. Built real-time WebSocket streaming and implemented Brotli compression to improve API performance. Led Rails upgrades and integrated Elasticsearch to boost search speed and user engagement.</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-date">Dec 2022 – Nov 2023</div>
+                    <div class="experience-title">Software Engineer</div>
+                    <div class="experience-company">Agribazaar (Remote)</div>
+                    <p>Reduced onboarding time by 30% via eKYC integration. Automated support with Zoho Desk APIs, cutting ticket resolution by 60%. Developed geospatial search and embedded Power BI for enhanced analytics.</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-date">Apr 2022 – Oct 2022</div>
+                    <div class="experience-title">Software Engineer</div>
+                    <div class="experience-company">BigBinary (Remote)</div>
+                    <p>Improved e-commerce checkout speed, increasing purchases by 15%. Developed scalable REST APIs with 99.9% uptime and implemented TDD with Cypress for reliable testing.</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-date">Mar 2021 – Apr 2022</div>
+                    <div class="experience-title">System Engineer</div>
+                    <div class="experience-company">Tata Consultancy Services, Bangalore, India</div>
+                    <p>Boosted anti-money laundering detection by 25% using Big Data analytics. Accelerated ETL pipelines by 40% and built low-latency Kafka messaging systems for real-time event processing.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Key Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-title">E-commerce API Platform</div>
+                        <p class="project-description">Scalable backend system for an e-commerce platform handling 10,000+ RPM. Built with Ruby on Rails, PostgreSQL, and Redis. Implemented caching, background jobs, and payment processing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Ruby on Rails</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">Stripe API</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-title">Data Processing Pipeline</div>
+                        <p class="project-description">Python-based ETL pipeline processing millions of records daily. Utilized Celery for distributed task processing and Elasticsearch for fast data retrieval. Reduced processing time by 75%.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Celery</span>
+                            <span class="tech-tag">Elasticsearch</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-title">Real-time Notification Service</div>
+                        <p class="project-description">WebSocket-based notification system with Rails backend. Supports 50,000+ concurrent connections. Features read receipts, typing indicators, and message persistence.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Ruby on Rails</span>
+                            <span class="tech-tag">WebSockets</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <p class="contact-text">
+                    I'm currently open to new opportunities and interesting projects. Whether you have a question or just want to connect, feel free to reach out. I'll get back to you as soon as possible.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer with Social Links -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="mailto:sachin.joshi.sde@gmail.com" class="social-link" aria-label="Email">
+                    <i class="fas fa-envelope social-icon"></i>
+                </a>
+                <a href="https://linkedin.com/in/sachin-joshi-sde" target="_blank" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in social-icon"></i>
+                </a>
+                <a href="https://github.com/scj50499" target="_blank" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github social-icon"></i>
+                </a>
+                <a href="https://tinyurl.com/scj-resume" target="_blank" class="social-link" aria-label="Resume">
+                    <i class="fas fa-file-alt social-icon"></i>
+                </a>
+            </div>
+            <div class="copyright">
+                &copy; <span id="year"></span> Sachin Chandra Joshi. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navigation functionality
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href').substring(1);
+                showSection(targetId);
+                
+                // Update active nav link
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+                
+                // Scroll to top of section
+                const targetSection = document.getElementById(targetId);
+                if (targetId !== 'home') {
+                    window.scrollTo({
+                        top: targetSection.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                } else {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Show target section
+            const targetSection = document.getElementById(sectionId);
+            if (targetSection) {
+                targetSection.classList.add('active');
+                
+                // Animate section entrance
+                setTimeout(() => {
+                    targetSection.classList.add('visible');
+                }, 100);
+            }
+        }
+
+    function typeCode() {
+    const codeDisplay = document.getElementById('code-display');
+const codeLines = [
+    '<span class="code-comment"># Backend API Controller</span>',
+    '<span class="code-keyword">class</span> <span class="code-class">ApiController</span> < <span class="code-class">ApplicationController</span>',
+    '',
+    '  <span class="code-keyword">def</span> <span class="code-method">index</span>',
+    '    <span class="code-var">data</span> = {',
+    '      <span class="code-symbol">status:</span> <span class="code-string">\'success\'</span>,',
+    '      <span class="code-symbol">message:</span> <span class="code-string">\'API is running\'</span>',
+    '    }',
+    '',
+    '    <span class="code-method">render</span> <span class="code-symbol">json:</span> <span class="code-var">data</span>',
+    '  <span class="code-keyword">end</span>',
+    '',
+    '<span class="code-keyword">end</span>',
+    '',
+    '<span class="code-comment"># Database Query Optimization</span>',
+    '<span class="code-var">users</span> = <span class="code-class">User</span>.<span class="code-method">includes</span>(<span class="code-symbol">:profile</span>)',
+    '             .<span class="code-method">where</span>(<span class="code-symbol">active:</span> <span class="code-keyword">true</span>)',
+    '             .<span class="code-method">order</span>(<span class="code-string">\'created_at DESC\'</span>)',
+    '             .<span class="code-method">limit</span>(10)'
+];
+    let currentLine = 0;
+    let cursorVisible = true;
+    let cursor;
+
+    // Create initial cursor
+    cursor = document.createElement('span');
+    cursor.className = 'typing-cursor';
+    codeDisplay.appendChild(cursor);
+
+    function typeNextLine() {
+        if (currentLine >= codeLines.length) {
+            // Animation complete
+            cursor.remove();
+            return;
+        }
+
+        const lineDiv = document.createElement('div');
+        lineDiv.className = 'code-line';
+        codeDisplay.insertBefore(lineDiv, cursor);
+        
+        const text = codeLines[currentLine];
+        let charIndex = 0;
+
+        function typeChar() {
+            if (charIndex < text.length) {
+                lineDiv.innerHTML = text.substring(0, charIndex + 1);
+                charIndex++;
+                
+                const speed = 15 + Math.random() * 5;
+                setTimeout(typeChar, speed);
+            } else {
+                // Line complete
+                currentLine++;
+                setTimeout(typeNextLine, 30); // Minimal delay between lines
+            }
+        }
+        
+        typeChar();
+    }
+    
+    setTimeout(typeNextLine, 300);
+    
+    // Blink the cursor
+    setInterval(() => {
+        cursorVisible = !cursorVisible;
+        cursor.style.opacity = cursorVisible ? '1' : '0';
+    }, 300);
+}
+        // Update copyright year automatically
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            showSection('home');
+            typeCode(); // Start the typing animation
+        });
+
+        
+
+        // Scroll animations
+        function animateOnScroll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top < window.innerHeight * 0.8) {
+                    section.classList.add('visible');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', animateOnScroll);
+        animateOnScroll(); // Initial check
+
+        // Loading animation
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.5s ease';
+            setTimeout(() => {
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+    </script>
+</body>
+</html>
